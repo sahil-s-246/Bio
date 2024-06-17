@@ -54,7 +54,7 @@ with st.expander("Contact Details"):
         st.link_button("Github","https://github.com/sahil-s-246")
         "https: // github.com / sahil - s - 246"
         st.link_button("LinkedIn","https://linkedin.com/sahilparupudi")
-        "https: // linkedin.com / sahilparupudi"
+        "https: // linkedin.com / in/sahilparupudi"
         st.link_button("Email","mailto://sahilsrinivas3@gmail.com")
         "sahilsrinivas3 @ gmail.com"
         st.link_button("Resume","https://sahil-s-246.github.io/autoCV")
