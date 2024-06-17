@@ -49,16 +49,16 @@ st.title("Hallo, I'm Sahil Parupudi")
 A Computer Engineering Student at Dr. D.Y. Patil Institute of Technology,Pimpri.Trying to learn and explore
 field of data science and ML whilst being surrounded by trees in a random forest 
 """
-col1, col2, col3,col4 = st.columns([1,1,1,1])
-
-with col2:
-    st.link_button("Github","https://github.com/sahil-s-246")
-with col4:
-    st.link_button("LinkedIn","https://linkedin.com/sahilparupudi")
-with col1:
-    st.link_button("Email","mailto://sahilsrinivas3@gmail.com")
-with col3:
-    st.link_button("Resume","https://sahil-s-246.github.io/autoCV")
+col1, col2,col3,col4 = st.columns([1,1,1,1])
+with st.expander("Contact Details"):
+        st.link_button("Github","https://github.com/sahil-s-246")
+        "https: // github.com / sahil - s - 246"
+        st.link_button("LinkedIn","https://linkedin.com/sahilparupudi")
+        "https: // linkedin.com / sahilparupudi"
+        st.link_button("Email","mailto://sahilsrinivas3@gmail.com")
+        "sahilsrinivas3 @ gmail.com"
+        st.link_button("Resume","https://sahil-s-246.github.io/autoCV")
+        "https: // sahil - s - 246.github.io / autoCV"
 
 "Experience:"
 {
