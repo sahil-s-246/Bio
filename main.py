@@ -52,17 +52,17 @@ field of data science and ML whilst being surrounded by trees in a random forest
 col1, col2,col3,col4 = st.columns([1,1,1,1])
 with st.expander("Contact Details"):
         st.link_button("Github","https://github.com/sahil-s-246")
-        "https: // github.com / sahil - s - 246"
+        st.markdown("[https://github.com/sahil-s-246](https://github.com/sahil-s-246)")
         st.link_button("LinkedIn","https://linkedin.com/sahilparupudi")
-        "https: // linkedin.com / in/sahilparupudi"
+        "https://linkedin.com/in/sahilparupudi"
         st.link_button("Email","mailto://sahilsrinivas3@gmail.com")
-        "sahilsrinivas3 @ gmail.com"
+        "sahilsrinivas3@gmail.com"
         st.link_button("Resume","https://sahil-s-246.github.io/autoCV")
-        "https: // sahil - s - 246.github.io / autoCV"
+        "https://sahil-s-246.github.io/autoCV"
 
 "Experience:"
 {
-   "Rubiscape":["Jun-Sep 2025","Project Intern"]
+   "Rubiscape":{"Duration":"Jun-Sep 2025","Role":"Project Intern"}
 }
 "Technologies:"
 {
